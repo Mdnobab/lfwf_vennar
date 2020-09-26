@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E9EBEE;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+p{
+    font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+    color: rgb(116, 115, 115)
+}
+
+.nav{
+    background-color: #3B5998;
+    height: auto;
+    width: auto;
+}
+
+.nav img{
+    width:280px ;
+    height: 90px;
+}
+
+.nav p {
+        margin-top: 0;
+        margin-bottom: 0rem;
+        color: white;
+        font-family: inherit;
+        font-size: 15px;
+        padding-top: 8px;
+}
+
+.nav input{
+    width: 100%;
+    height: 20px;
+}
+
+.nav a{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.514);
+    direction: none;
+}
+
+.nav input.btn-primary{
+    
+    width: 60px;
+    height: 25px;
+    margin-top: 30px;
+    background-color: #4569b6;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    margin-left: -10px;
+}
+.nav input.btn-primary:hover{
+    background-color: #3B5998;
+}
+
+.middle h2{
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+}
+
+.bth p{
+    margin-bottom: 2px;
+
+}
+.bdt{
+    display: inline-block;
+    padding-right: 5px;
+}
+.bdt select{
+    width: 60px;
+    height: 25px;
+}
+.fa_icon{
+    display: inline-block;
+}
+div.bth{
+    display: inline;
+}
+.fa_icon i{
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+div.gender{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.gender .radio{
+    margin: 0px 5px;
+    display: inline-block;
+    font-weight: 550;
+}
+
+.mid_link{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.middle .btn{
+    padding: 5px 50px;
+    background-color: #639A4F;
+    border: 0.5px solid rgb(94, 93, 93);
+    box-shadow:  0px 1px 2px  white inset;
+    font-weight: 500;
+    font-size: 20px;
+}
+.middle .btn:hover{
+    box-shadow:  0px 5px 6px  white inset;
+}
+
+.line {
+    margin-top: 20px;
+    border-bottom: 1px solid #cacaca;
+}
+
+.create_page{
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 15px;
+    font-family: inherit;
+}
+
+.bottom{
+    background-color: white;
+    padding-top: 25px;
+}
+
+.lan_link{
+    font-size: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cacaca ;
+    font-family: inherit;
+}
+.lan_link a{
+    margin-left: 10px;
+}
+
+.lan_link span{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(187, 186, 186);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    margin-left: 15px;
+    position: relative;
+    transform: translateY(-30px);
+
+}
+.lan_link span a{
+    text-decoration: none;
+    margin-left: 0;
+    padding: 5px;
+    color: black;
+}
+
+.bt_link a {
+    font-size: 12px;
+    font-family: inherit;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.rec_log{}
+.log_box{
+    display: flex;
+    position: relative;
+}
+
+.log{
+    height: 170px;
+    width: 150px;
+    background-color: #F5F6F7;
+    border: 1px solid rgba(204, 203, 203, 0.938);
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+}
+.box1 img{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.log p{
+    height: auto;
+    width: 150px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.box2 a {
+    padding: 50%;
+    margin:auto;
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: #F5F6F7;
+    border-radius: 10px 10px 0 0;
+}
+.box2 i {
+    color: white;
+    font-size: 31px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    line-height: 40px;
+    text-align: center;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.box1::after{
+    content: "5";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    font-size: 12;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 20px;
+
+}
+
+.rec_log {
+    font-weight: 600;
+    margin-top: 20px;
+}
